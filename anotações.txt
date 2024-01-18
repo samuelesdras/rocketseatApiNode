@@ -1,0 +1,26 @@
+Para criar a tabela documents:
+    npm run knex -- migrate:make create-documents 
+
+roda a última migration:
+    npm run knex -- migrate:latest 
+
+para desfazer uma migration:
+    npm run knex -- migrate:rollback
+
+instalar o plugin dotEnv e a lib com o npm i dotenv
+
+# Requisitos funcionais
+    - O usuário pode criar novas transações
+    - O usuário pode obter um resumo de sua conta
+    - O usuário deve poder listar todas as transações que já ocorreram
+    - O usuaro deve poder visualizar uma transação única.
+
+# Regra de negocio
+    - A transação pode ser do tipo crédito que somará ao valor total e debito que subtraiará
+    - Dever ser possivel identificarmos o usuário entre as requisições
+    - O usuário deve poder visualizar transações que ele criou
+
+# Requisitos não funcionais
+    - 
+
+    
